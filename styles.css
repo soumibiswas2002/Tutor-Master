@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@600&display=swap');
 
 body {
-    font-family: "Montserrat";
+    font-family: "Poppins";
     text-align: center;
     overflow-x: hidden;
+    margin: 0%;
   }
 
 h1,h2,h3,h4,h5,h6{
@@ -758,7 +759,7 @@ margin-right: 50px;
 }
 
 /* Media Queary*/
-@media(max-width: 993px) {
+@media(max-width: 1319px) {
   #title {
     text-align: center;
   }
@@ -803,10 +804,45 @@ margin-right: 50px;
   text-align: center;
   margin: 20px;
 }
-.card-body{
-  text-align: center !important;
+#sec_3{
+  text-align: center;
 }
-.sec5_img-1{
-
+.sec3-column{
+  text-align: center;
+  display: flex;
+}
+.card{
+  margin-left: 150px;
+}
+div.circle-1, .circle-2, .circle-3{
+  display: none;
+visibility: hidden;
+}
+#sec_4{
+  text-align: center;
+}
+.master-title{
+  text-align: center;
+}
+#sec_4 .para_2{
+  text-align: center;
+  margin: 20px;
+}
+.profile-1{
+  margin: 20px;
+  text-align: center;
+}
+.sec6_img1 {
+  margin: 20px;
+  display: flex;
+  padding-top: 22px;
+  height: 100%;
+  width: 90%;
+}
+a:link { 
+  text-decoration: none !important; 
+}
+a:active { 
+  text-decoration: none !important; 
 }
 }
